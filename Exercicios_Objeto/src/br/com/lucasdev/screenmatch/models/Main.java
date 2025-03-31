@@ -1,13 +1,13 @@
-package ex01_Filme;
+package br.com.lucasdev.screenmatch.models.Filme;
 
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import br.com.lucasdev.screenmatch.models.Filme;
+
 public class Main {
     public static void main(String[] args) {
         Filme meuFilme = new Filme();
-        meuFilme.nome = "Motoqueiro Fantasma";
-        meuFilme.anoDeLancamento = 1980;
-        meuFilme.duracaoEmMinutos = 180;
+        meuFilme.setNome("Motoqueiro Fantasma");
+        meuFilme.setAnoDeLancamento(1980);
+        meuFilme.setDuracaoEmMinutos(180);
 
         meuFilme.exibeFichaTecnica();
 

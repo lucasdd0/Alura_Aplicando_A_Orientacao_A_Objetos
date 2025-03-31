@@ -4,12 +4,36 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Aluno {
-    String nome;
-    int idade;
-    int rm;
-    ArrayList<Double> notas = new ArrayList<>();
-    double media;
-    double somaNotas;
+    private String nome;
+    private int idade;
+    private int rm;
+    private ArrayList<Double> notas = new ArrayList<>();
+    private double media;
+    private double somaNotas;
+
+    String getNome(){
+        return nome;
+    }
+
+    int getIdade(){
+        return idade;
+    }
+
+    int getRm(){
+        return rm;
+    }
+
+    ArrayList<Double> getNotas(){
+        return new ArrayList<>(notas);
+    }
+
+    double getMedia(){
+        return media;
+    }
+
+    double getSomaNotas(){
+        return somaNotas;
+    }
 
 
     void coletaDados(){
@@ -62,7 +86,7 @@ public class Aluno {
     }
 
     void mostrarMedia(){
-        System.out.println("Sua média é: " + media);
+        System.out.printf("Sua média é: %.1f%n", media);
     }
 
 }

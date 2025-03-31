@@ -10,6 +10,8 @@ public class Main {
 
         aluno1.coletaNotas();
 
+        //aluno1.notas.add(9.0);          //não está encapsulado => isso é um meio de burlar o programa
+
         aluno1.mostrarNotas();
 
         aluno1.media();
