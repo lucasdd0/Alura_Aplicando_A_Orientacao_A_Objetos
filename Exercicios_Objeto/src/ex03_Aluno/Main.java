@@ -12,5 +12,9 @@ public class Main {
 
         aluno1.mostrarNotas();
 
+        aluno1.media();
+
+        aluno1.mostrarMedia();
+
     }
 }

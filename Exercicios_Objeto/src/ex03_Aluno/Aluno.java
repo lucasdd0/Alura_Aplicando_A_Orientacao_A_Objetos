@@ -9,6 +9,8 @@ public class Aluno {
     int rm;
     ArrayList<Double> notas = new ArrayList<>();
     double media;
+    double somaNotas;
+
 
     void coletaDados(){
         Scanner sc = new Scanner(System.in);
@@ -49,6 +51,18 @@ public class Aluno {
         for(Double nota :notas){
             System.out.println(nota);
         }
+    }
+
+    double media(){
+        for(Double nota : notas){
+            somaNotas += nota;
+        }
+
+        return media = somaNotas / notas.size();
+    }
+
+    void mostrarMedia(){
+        System.out.println("Sua média é: " + media);
     }
 
 }

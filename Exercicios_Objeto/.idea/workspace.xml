@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="53722e00-b68a-49bd-a254-1d40aed380be" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ex03_Aluno/Aluno.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ex03_Aluno/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ex03_Aluno/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ex03_Aluno/Aluno.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,7 @@
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lucas/FIAP/SIS2/Object_Oriented_Programming_And_Java_Web_Developme/PrimeiroSemestre&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/lucas/FIAP/SIS2/Alura/Alura_Aplicando_A_Orientacao_A_Objetos/Exercicios_Objeto/src/Main.java&quot;
   }
 }</component>
@@ -55,5 +55,16 @@
       <updated>1742182098543</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ex03_Aluno/Aluno.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
