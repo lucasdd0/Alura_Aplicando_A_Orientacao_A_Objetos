@@ -11,11 +11,11 @@ public class Filme {            //a classe tem varios atributos => objetos
     private double nota;
 
     public void setNome(String nome) {          //O valor do nome vai ser armazenado no parametro "String nome". Só existe dentro desse método
-        this.nome = nome;
+        this.nome = nome;                   //set = modifica o valor => fazer modificações em outros métodos
     }
 
     public String getNome() {
-        return nome;
+        return nome;                        //get = pega o valor => fazer apenas a impressão em outros métodos
     }
 
     public double getAvaliacao() {
