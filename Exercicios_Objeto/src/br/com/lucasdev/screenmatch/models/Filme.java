@@ -10,7 +10,7 @@ public class Filme {            //a classe tem varios atributos => objetos
     private int duracaoEmMinutos;
     private double nota;
 
-    public void setNome(String nome) {
+    public void setNome(String nome) {          //O valor do nome vai ser armazenado no parametro "String nome". Só existe dentro desse método
         this.nome = nome;
     }
 
