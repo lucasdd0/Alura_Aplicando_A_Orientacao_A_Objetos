@@ -1,24 +1,21 @@
-package br.com.lucasdev.screenmatch.models.Filme;
-
 import br.com.lucasdev.screenmatch.models.Filme;
 
 public class Main {
+
     public static void main(String[] args) {
-        Filme meuFilme = new Filme();
-        meuFilme.setNome("Motoqueiro Fantasma");
-        meuFilme.setAnoDeLancamento(1980);
-        meuFilme.setDuracaoEmMinutos(180);
+        Filme favorito = new Filme();
 
-        meuFilme.exibeFichaTecnica();
+        favorito.setNome("The Matrix");
+        favorito.setAnoDeLancamento(1999);
+        favorito.setDuracaoEmMinutos(135);
+        favorito.setIncluidoNoPlano(true);
 
-        meuFilme.avalia(8);
-        meuFilme.avalia(7);
-        meuFilme.avalia(6);
-        meuFilme.avalia(5);
-        System.out.println(meuFilme.totalDeAvaliacoes);
-        System.out.println(meuFilme.somaDeAvaliacoes);
+        favorito.exibeFichaTecnica();
+        favorito.avalia(9);
+        favorito.avalia(8);
+        favorito.avalia(9);
 
-        System.out.println(meuFilme.pegaMedia());
+        System.out.println("Média de avaliações do filme: " + favorito.pegaMedia());
     }
 
 }
