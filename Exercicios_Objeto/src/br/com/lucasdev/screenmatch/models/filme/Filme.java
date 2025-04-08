@@ -1,4 +1,4 @@
-package br.com.lucasdev.screenmatch.models;
+package br.com.lucasdev.screenmatch.models.filme;
 
 public class Filme {
 

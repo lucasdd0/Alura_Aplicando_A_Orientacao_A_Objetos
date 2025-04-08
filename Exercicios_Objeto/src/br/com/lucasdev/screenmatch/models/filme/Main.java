@@ -1,4 +1,4 @@
-import br.com.lucasdev.screenmatch.models.Filme;
+package br.com.lucasdev.screenmatch.models.filme;
 
 public class Main {
 
