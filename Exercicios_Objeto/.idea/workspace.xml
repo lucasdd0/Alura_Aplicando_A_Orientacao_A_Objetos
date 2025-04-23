@@ -7,7 +7,6 @@
     <list default="true" id="53722e00-b68a-49bd-a254-1d40aed380be" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/lucasdev/screenmatch/models/banco/ContaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/lucasdev/screenmatch/models/banco/ContaBancaria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/lucasdev/screenmatch/models/banco/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/lucasdev/screenmatch/models/banco/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

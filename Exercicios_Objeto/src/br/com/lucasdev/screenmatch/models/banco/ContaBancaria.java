@@ -1,5 +1,7 @@
 package br.com.lucasdev.screenmatch.models.banco;
 
+import java.util.Random;
+
 import static javax.swing.JOptionPane.*;
 import static java.lang.Integer.parseInt;
 import static java.lang.Double.parseDouble;
@@ -12,9 +14,9 @@ public class ContaBancaria {
     public void menuPrincipal() {
         int opcao = 0;
         String menu = "1. Cadastrar\n" +
-                "2. Depositar\n" +
-                "3. Sacar\n" +
-                "4. Finalizar";
+                        "2. Depositar\n" +
+                        "3. Sacar\n" +
+                        "4. Finalizar";
 
         do {
             opcao = parseInt(showInputDialog(menu));
@@ -38,10 +40,16 @@ public class ContaBancaria {
         } while (opcao != 4);
     }
 
+    private int gerarNumero(){
+        Random rd = new Random();
+        return rd.nextInt(1000, 10000);
+    }
+
     private void menuCadastro() {
         saldo = 0;
+        numeroConta = gerarNumero();
+        showMessageDialog(null,"O número da sua conta é: " + numeroConta);
         titular = showInputDialog("Digite o seu nome: ");
-        numeroConta = parseInt(showInputDialog("Digite o número da sua conta: "));
         saldo = parseDouble(showInputDialog("Digite seu saldo: "));
         showMessageDialog(null, "Conta cadastrada com sucesso!");
     }
